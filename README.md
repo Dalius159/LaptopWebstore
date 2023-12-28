@@ -2,13 +2,18 @@ language:
 - java
 - javascript
 - html/css
+- SQL
 
 tech stack:
-- spring boot
-- thymeleaf
-- jquery
+- Spring Boot: Back-end
+- Thymeleaf: Server-side Front-end
+- MySQL: DBMS
+- jquery: AJAX request and Client-side Front-end
 
-small helper libraries:
+helper libraries:
+- Spring Security
+- Spring Data JPA
+- MySQL Connector/J
 - [responsiveslide.js](http://responsiveslides.com)
 - [accounting.js](https://openexchangerates.github.io/accounting.js/)
-- [bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/)
