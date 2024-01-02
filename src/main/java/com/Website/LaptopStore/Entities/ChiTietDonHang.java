@@ -2,9 +2,10 @@ package com.Website.LaptopStore.Entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
+import lombok.Data;
 
 @Entity
+@Data
 public class ChiTietDonHang {
 
     @Id
@@ -23,54 +24,4 @@ public class ChiTietDonHang {
     @JoinColumn(name = "ma_don_hang")
     @JsonIgnore
     private DonHang donHang;
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public SanPham getSanPham() {
-        return sanPham;
-    }
-
-    public void setSanPham(SanPham sanPham) {
-        this.sanPham = sanPham;
-    }
-
-    public long getDonGia() {
-        return donGia;
-    }
-
-    public void setDonGia(long donGia) {
-        this.donGia = donGia;
-    }
-
-    public int getSoLuongDat() {
-        return soLuongDat;
-    }
-
-    public void setSoLuongDat(int soLuongDat) {
-        this.soLuongDat = soLuongDat;
-    }
-
-    public DonHang getDonHang() {
-        return donHang;
-    }
-
-    public void setDonHang(DonHang donHang) {
-        this.donHang = donHang;
-    }
-
-
-    public int getSoLuongNhanHang() {
-        return soLuongNhanHang;
-    }
-
-    public void setSoLuongNhanHang(int soLuongNhanHang) {
-        this.soLuongNhanHang = soLuongNhanHang;
-    }
-
 }
