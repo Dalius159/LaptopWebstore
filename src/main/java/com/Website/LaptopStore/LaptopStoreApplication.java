@@ -4,9 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 //	TODO:
-//	rename everything to english proper
+//	rename models name to english proper
 //	change field injections to constructor injections
-//	migrate away from jquery ajax and responsive slide
+//	migrate away from jquery, replace responsive slide
+//	manage images through database instead of hard coding
+//	remove static resource binding in WebConfig.java
 @SpringBootApplication
 public class LaptopStoreApplication {
 
